@@ -1,0 +1,273 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+    font-family:Arial;
+    font-size:12px;
+    line-height:20px;
+    display:block;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:15px;
+}
+
+a,a:hover{
+    text-decoration:none;
+    color:#000;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+.fix{
+    overflow:hidden;
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float:right;
+}
+
+/*custom css starts here*/
+
+.column{
+    width:1000px;
+    background:url(images/bg.png) no-repeat #2b1408;
+    display:block;
+}
+
+.social_share{
+    height: 186px;
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: -58px;
+    top: 18px;
+    width: 58px;
+}
+
+.social_share img{
+    margin-left:-10px;
+}
+
+.main_content{
+    background:#e5e2e2;
+    margin:35px 50px;
+    border-radius:10px;
+}
+
+.header{
+    margin-bottom: -98px;
+    padding: 50px 40px;
+}
+
+.logo{
+    
+}
+
+.main-menu{
+    margin-top:28px;
+}
+
+#nav{
+    margin:0;
+    padding:0;
+}
+
+#nav li{
+    float:left;
+}
+
+#nav li a{
+    padding:10px 15px;
+    font-size:24px;
+    line-height:30px;
+    text-shadow:2px 2px 3px #000;
+    color:#873b11;
+    display:block;
+    font-weight:bold;
+}
+#nav li a:hover{}
+
+.headings{
+    padding:40px 35px 60px;
+    background:url(images/headings.bg.png) repeat-x scroll 0 0;
+    color:#fff;
+    display:block;
+    min-height:118;
+    border-radius:10px 10px 0 0;
+    position:relative;
+}
+
+.head_content{
+    margin-right: 25px;
+    width: 350px;
+}
+
+.head_content a img{
+    margin-top:25px
+}
+
+.social_bookmarks{
+    background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll 0 67px;
+    margin-top: -60px;
+    min-height: 206px;
+    width:455px;
+}
+
+.social_bookmarks ul{
+    margin-left: 34px;
+    margin-top: 14px;
+    width: 452px;    
+}
+
+.social_bookmarks ul li{
+    float: left;
+    margin-bottom: 16px;
+    margin-right: 21px;
+}
+
+.social_bookmarks ul li a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-indent:-99999px;
+}
+.social_bookmarks ul li a:hover{}
+
+.facebook{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -34px -14px;
+}
+.twitter{
+    background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -105px -14px;
+}
+
+.s3{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -174px -14px;
+    margin-left: -2px;
+}
+
+.s4{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -240px -14px;
+    margin-left: -5px;
+}
+
+.s5{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -300px -14px;
+    margin-left: -10px;
+}
+
+.s6{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll 50px -14px;
+}
+
+.s7{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -34px -80px;
+}
+
+.rss{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -105px -80px;
+}
+
+.s9{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -174px -80px;
+}
+
+.linkedin{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -240px -80px;
+    margin-left: -10px;
+    padding-right: 2px;
+}
+
+.s11{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll -300px -80px;
+    margin-left: -10px;
+}
+
+.s12{
+     background: rgba(0, 0, 0, 0) url("images/socail_bookmarks.png") no-repeat scroll 50px -80px;
+}
+
+.info_content{
+    background:url(images/info_bg.png) repeat-x scroll 0 0;
+    display:block;
+}
+
+
+.left_info h2,.right_info h2{
+    color:#2d2d2d;
+}
+
+.left_info a,.right_info a{
+    font-weight:bold;
+}
+
+.left_info h2,.right_info h2{
+    color:rgb(74, 22, 22);
+    text-shadow:3px 3px 3px #fff;
+}
+
+.left_info{
+    background: rgba(0, 0, 0, 0) url("images/info_1.png") no-repeat scroll 15px 50px;
+    border-right: 1px solid #d5d3d3;
+    margin-left: 0px;
+    padding: 19px 35px 19px 105px;
+    width: 309px;
+    margin-right:0px;
+}
+
+.right_info{
+     background: rgba(0, 0, 0, 0) url("images/info_2.png") no-repeat scroll 15px 50px;
+    border-left: 1px solid #c1bfbf;
+    margin-right: 35px;
+    padding: 19px 0 19px 105px;
+    width: 309px;
+}
+
+.content{
+    padding: 35px 35px;
+}
+
+.content h1{
+    color:#545252;
+    padding:25px 0;
+}
+
+.content p{
+    color:#545252;
+}
+
+.protfolio{
+    padding:35px  35px 70px;
+    text-align:center;
+}
+
+.readmore{
+    padding-bottom:35px;
+    text-align: center;
+}
+
+.readmore a{
+    padding: 10px 15px;
+    width: 80px;
+   background:rgb(74, 39, 24);
+    border-radius: 10px;
+    color:#fff;
+    
+}
+
+.readmore span{
+}
+
+footer, .footer{
+    margin-top:-30px;
+    text-align:center;
+    color:#fff;
+}
